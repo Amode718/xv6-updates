@@ -176,6 +176,8 @@ $M/mkfs: $M/mkfs.c $K/fs.h
 UPROGS=\
 	$U/_cat\
 	$U/_echo\
+	$U/_ezsh\
+	$U/_exshh\
 	$U/_forktest\
 	$U/_grep\
 	$U/_init\
@@ -193,7 +195,9 @@ UPROGS=\
 	$U/_zombie\
 	$U/_greet\
 	$U/_cp\
-	$U/_shutdown
+	$U/_shutdown\
+	$U/_xvEdit\
+	
 
 
 fs.img: $M/mkfs README $(UPROGS)

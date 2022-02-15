@@ -5,7 +5,7 @@ int main(int argc, char *argv[]){
     char buffer[512];
     // Make sure the usage is correct by first checking for correct number of perameters
     if(argc > 3 || argc < 3){
-        fprintf(2, "Not the correct usage of command cp");
+        fprintf(2, "Not the correct usage of command cp\n");
         exit();
         //OR CALL man cp
     }

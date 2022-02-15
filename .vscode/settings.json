@@ -1,5 +1,11 @@
 {
     "files.associations": {
-        "__config": "cpp"
+        "__config": "cpp",
+        "types.h": "c",
+        "stat.h": "c",
+        "fcntl.h": "c",
+        "__locale": "c",
+        "cstring": "c",
+        "typeinfo": "c"
     }
 }
