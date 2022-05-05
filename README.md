@@ -1,4 +1,4 @@
-# xv6-mversion
+# xv6-aversion
 The purpose of this fork of xv6 (the x86 version) was to update some of the features in the abandoned version in order to match with the currently maintained version (the riscv version). So far this has consisted of some tweaks to the makefile and other files in order to get the file structure right, changes to the make file to allow compilation on the latest binutils and gcc packages, and a shutdown command to make it easier to quit the xv6 session.
 
 ## Installation of dependencies
